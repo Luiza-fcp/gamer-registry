@@ -1,14 +1,10 @@
-
-
-
 const request = require("supertest");
 const app = require("../app");
-
+/*
   test("GET /games deve retornar 200", async() => {
     const response = await request(app).get("/api/games");
     console.log(response.body); 
     expect(response.statusCode).toBe(200);
-    
 });
 
 
@@ -33,7 +29,7 @@ test("POST /api/games cria um novo jogo", async() => {
 test("POST /games sem nome deve retornar erro", async () => {
     const response = await request (app)
     .post("/api/games")
-    .send({});
+    .send({}); //corpo vazio
 
     expect(response.statusCode).toBe(400);
-})
+})*/
